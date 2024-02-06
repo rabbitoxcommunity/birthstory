@@ -1,0 +1,541 @@
+
+@media only screen and (max-width: 600px) {
+    .col-sm-7{
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+    .col-sm-3{
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    section.birthStory__banner {
+        min-height: fit-content;
+        padding-top: 115px;
+    }
+
+    .header .logo img {
+        max-height: 30px;
+    }
+
+    .birthStory__banner .birthStory__video img {
+        height: 190px;
+        border-radius: 18px;
+    }
+
+    section.birthStory__banner .mainBanner__contents h1 {
+        font-size: 34px;
+    }
+
+    section.birthStory__banner .mainBanner__contents p {
+        width: 91%;
+        margin: 0 auto;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .btn-primary {
+        padding: 10px 18px !important;
+    }
+
+    .birthStory__banner .play-btn {
+        width: 32px;
+        height: 32px;
+        left: calc(60% - 50px);
+        top: calc(67% - 50px);
+    }
+
+    section.birthStory__about .about__title h2 {
+        font-size: 24px;
+    }
+
+    section.birthStory__about .about__title p {
+        width: 100%;
+    }
+
+    section.birthStory__about .aboutGrid {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    section.birthStory__Services .title h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    section.birthStory__Services .title {
+        margin-bottom: 30px;
+    }
+
+    section.birthStory__Services .services__contents h2 {
+        font-size: 38px;
+    }
+
+    section.birthStory__Services .services__contents p {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    section.birthStory__Services .services__contents {
+        margin-bottom: 30px;
+    }
+
+    section.birthStory__Services .service__image img {
+        height: 260px;
+        border-radius: 18px;
+        margin-bottom: 30px;
+    }
+
+    .sm-reverse {
+        flex-direction: column-reverse;
+    }
+
+    section.birthStory__Services .services__contents.padLeft {
+        padding-left: 0;
+    }
+
+    section.birthStory__testimonials .testimonial-content p {
+        font-size: 18px;
+    }
+    section.birthStory__startToday h2 {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 23px;
+        font-size: 25px;
+    }
+    section.birthStory__footer{
+        background-color: #fff;
+    }
+    section.birthStory__footer .footer__social {
+        padding-top: 24px;
+        flex-direction: column;
+    }
+    section.birthStory__footer .footer__logo img {
+        height: 32px;
+    }
+    section.birthStory__footer .footer__logo {
+        margin-top: 32px;
+    }
+    .sectionPad {
+        padding: 70px 0;
+    }
+    section.birthStory__servicesPage .innerPage__contents h1 {
+        font-size: 30px;
+    }
+    section.birthStory__servicesPage .innerPage__contents {
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    section.birthStory__servicesPage .service__image img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+    }
+    section.birthStory__servicesPage .service__image {
+        margin-top: 50px;
+    }
+    .servicePage__header h3 {
+        font-size: 27px;
+        margin: 0;
+        line-height: normal;
+        padding: 10px 0;
+    }
+    
+    .servicePage__header p {
+        width: 100%;
+        margin: 0 auto;
+    }   
+    .servicePage__header {
+        text-align: center;
+        margin-bottom: 40px;
+    } 
+    .service__image.detailed__service {
+        margin-bottom: 30px;
+    }
+    section.birthStory__InnerTestimonials .testimonial-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 36px;
+    }
+    section.birthStory__InnerTestimonials .contents p {
+        font-size: 18px;
+        
+    }
+    section.birthStory__InnerTestimonials .icon {
+        margin-right: 30px;
+        margin: 0 auto;
+        padding-bottom: 16px;
+    }
+    section.birthStory__mainBanner {
+        min-height: fit-content;
+        padding-bottom: 50px;
+        padding-top: 120px;
+    }
+    section.birthStory__story .contents h2 {
+        font-size: 34px;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    section.birthStory__story .contents h6 {
+        margin-bottom: 14px;
+        font-weight: 600;
+    }
+    section.birthStory__teams .team__slider .teamGrid img {
+        width: 100%;
+        border-radius: 38px;
+        height: 368px;
+        object-fit: cover;
+    }
+    section.birthStory__teams .swiper-button-next {
+        right: 0;
+        bottom: 0;
+    }
+    section.birthStory__blogs .blog__img img {
+        width: 100%;
+        height: 245px;
+        object-fit: cover;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    section.birthStory__blogs .blog__contents {
+        padding-left: 0;
+    }
+    section.birthStory__blogs .blog__contents h2 {
+        font-size: 34px;
+        padding: 20px 0;
+    }
+    section.birthStory__blogs .blogLists img {
+        height: 245px;
+    }
+    .sm-banner{
+        min-height: 36vh !important;
+    }
+    .blog__img.blog__details img {
+        height: 245px !important;
+    }
+    .sm-pb-0{
+        padding-bottom: 0;
+    }
+    .section__faq .accordion-list a{
+        font-size: 18px;
+    }
+    section.birthStory__serviceDetails .contents h2 {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    section.birthStory__serviceDetails .focus {
+        padding-top: 0;
+    }
+    section.birthStory__serviceDetails .focusGrid {
+        display: flex;
+        width: 87%;
+        margin: 0 auto;
+    }
+    section.birthStory__serviceDetails .focus h2 {
+        padding-left: 15px;
+    }
+    .Detailed__privacy__policy {
+        text-align: center;
+        width: 95%;
+    }
+    section.birthStory__serviceDetails .service__image img {
+        height: 245px;
+        object-fit: cover;
+        margin: 30px 0;
+    }
+    .section__faq.serviceDetailsFAQ {
+        background: #F9ECED;
+        border-radius: 30px;
+        padding: 30px;
+        margin: 0 auto;
+        width: 94%;
+    }
+    .section__faq.serviceDetailsFAQ .title h2 {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 25px;
+        font-size: 34px;
+    }
+    section.birthStory__enquiry {
+        width: 90%;
+        margin: 0 auto;
+    }
+    section.birthStory__thankyou .thank {
+        padding: 40px;
+    }
+    section.birthStory__mainBanner.privacy {
+        min-height: fit-content;
+        padding-bottom: 50px;
+        padding-top: 120px;
+    }
+    .privacy__policy h2 {
+        font-size: 34px;
+    }
+    .privacy__policy p {
+        width: 100%;
+    }
+    section.birthStory__contact .contents {
+        text-align: center;
+        padding: 10px 0;
+    }
+    section.birthStory__contact {
+        background: white;
+    }
+}
+
+/* TABLET */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    section.birthStory__banner .mainBanner__contents p {
+        width: 100%;
+    }
+    section.birthStory__banner .mainBanner__contents h1{
+        font-size: 50px;
+    }
+    section.birthStory__banner {
+        width: 100%;
+        min-height: 75vh;
+    }
+    .birthStory__banner .birthStory__video img {
+        width: 100%;
+        height: 312px;
+    }
+    .birthStory__banner .play-btn {
+        left: calc(54% - 50px);
+        top: calc(54% - 50px);
+    }
+    section.birthStory__Services .service__image img{
+        height: 326px
+    }
+    section.birthStory__startToday h2 {
+        width: 83%;
+        font-size: 35px;
+    }
+    .col-tab-3{
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .col-tab-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col-tab-8{
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+    .col-tab-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+    .col-tab-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    section.birthStory__footer .footer__social {
+        padding-top: 40px;
+    }
+    section.birthStory__about .about__title p {
+        width: 63%;
+        font-weight: 500;
+    }
+    section.birthStory__about .aboutGrid {
+        flex-direction: column;
+    }
+    section.birthStory__about .shortContent {
+        padding: 11px 9px 8px 0px;
+    }
+    section.birthStory__servicesPage .innerPage__contents h1 {
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    section.birthStory__servicesPage {
+        width: 100%;
+        min-height: 61vh;
+    }
+    section.birthStory__mainBanner {
+        width: 100%;
+        min-height: 38vh;
+    }
+    section.birthStory__serviceDetails .contents h2 {
+        font-size: 30px;
+    }
+    section.birthStory__serviceDetails .focusGrid {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+    section.birthStory__serviceDetails .focus h2 {
+        padding-left: 34px;
+    }
+    section.birthStory__blogs .blog__contents {
+        padding-left: 10px;
+    }
+    section.birthStory__blogs .blog__contents h2 {
+        font-size: 30px;
+    }
+    section.birthStory__blogs .blogLists img {
+        width: 100%;
+        height: 164px;
+    }
+    .blog__img.blog__details img {
+        height: 481px !important;
+    }
+    section.birthStory__mainBanner.darkpink.privacy {
+        min-height: 67vh;
+    }
+    .privacy__policy p {
+        width: 100%;
+    }
+    section.birthStory__Services .services__contents.padLeft {
+        padding-left: 6px;
+    }
+    section.birthStory__story .contents h2 {
+        font-size: 34px;
+        padding-left: 0;
+    }
+    section.birthStory__story .contents h6 {
+        margin-bottom: 18px;
+        font-weight: 600;
+    }
+    section.birthStory__teams .swiper-button-next {
+        right: 15px;
+    }
+}
+
+/* IPAD PRO */
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    section.birthStory__banner .mainBanner__contents p {
+        width: 100%;
+    }
+    section.birthStory__banner .mainBanner__contents h1{
+        font-size: 50px;
+    }
+    section.birthStory__banner {
+        width: 100%;
+        min-height: 53vh;
+    }
+    .birthStory__banner .birthStory__video img {
+        width: 100%;
+        height: 312px;
+    }
+    .birthStory__banner .play-btn {
+        left: calc(54% - 50px);
+        top: calc(54% - 50px);
+    }
+    section.birthStory__Services .service__image img{
+        height: 326px
+    }
+    section.birthStory__startToday h2 {
+        width: 45%;
+        font-size: 35px;
+    }
+    .col-tab-3{
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .col-tab-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col-tab-8{
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+    .col-tab-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+    .col-tab-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    section.birthStory__footer .footer__social {
+        padding-top: 40px;
+    }
+    section.birthStory__about .about__title p {
+        width: 63%;
+        font-weight: 500;
+    }
+    section.birthStory__about .aboutGrid {
+        flex-direction: column;
+    }
+    section.birthStory__about .shortContent {
+        padding: 11px 9px 8px 0px;
+    }
+    section.birthStory__servicesPage .innerPage__contents h1 {
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    section.birthStory__servicesPage {
+        width: 100%;
+        min-height: 46vh;
+    }
+    section.birthStory__mainBanner {
+        width: 100%;
+        min-height: 28vh;
+    }
+    section.birthStory__serviceDetails .contents h2 {
+        font-size: 30px;
+    }
+    section.birthStory__serviceDetails .focusGrid {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+    section.birthStory__serviceDetails .focus h2 {
+        padding-left: 34px;
+    }
+    section.birthStory__blogs .blog__contents {
+        padding-left: 10px;
+    }
+    section.birthStory__blogs .blog__contents h2 {
+        font-size: 30px;
+    }
+    section.birthStory__blogs .blogLists img {
+        width: 100%;
+        height: 164px;
+    }
+    .blog__img.blog__details img {
+        height: 481px !important;
+    }
+    section.birthStory__mainBanner.darkpink.privacy {
+        min-height: 45vh;
+    }
+    .privacy__policy p {
+        width: 100%;
+    }
+    section.birthStory__Services .services__contents.padLeft {
+        padding-left: 6px;
+    }
+    section.birthStory__story .contents h2 {
+        font-size: 34px;
+        padding-left: 0;
+    }
+    section.birthStory__story .contents h6 {
+        margin-bottom: 18px;
+        font-weight: 600;
+    }
+    section.birthStory__teams .swiper-button-next {
+        right: 15px;
+    }
+}
+
+
+
+
+
+/* 13 INCH SCREEN */
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    section.birthStory__banner {
+        min-height: 136vh;
+    }
+    section.birthStory__startToday h2 {
+        width: 54%;
+    }
+}

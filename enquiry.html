@@ -71,26 +71,27 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="row">
+                    <div >
+                      <form class="row" id="contactForm">
                         <div class="col-md-6">
                             <label for="fname">First name <span>*</span></label>
-                            <input type="text" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="fname" name="fname">
                         </div>
                         <div class="col-md-6">
                             <label for="lname">Last name <span>*</span></label>
-                            <input type="text" class="form-control" id="lname">
+                            <input type="text" class="form-control" id="lname" name="lname">
                         </div>
                         <div class="col-md-6">
                             <label for="email">Email <span>*</span></label>
-                            <input type="email" class="form-control" id="email">
+                            <input type="email" class="form-control" id="email" name="email">
                         </div>
                         <div class="col-md-6">
                             <label for="phone">Phone <span>*</span></label>
-                            <input type="text" class="form-control" id="phone">
+                            <input type="text" class="form-control" id="phone" name="phone">
                         </div>
                         <div class="col-md-12">
                             <label for="seelct">What services are you interested in?</label>
-                            <select class="form-control custom-select" id="select">
+                            <select class="form-control custom-select" id="select" name="select">
                                 <option>Select One...</option>
                                 <option>Childbirth Course</option>
                                 <option>Labour Preparation</option>
@@ -101,8 +102,9 @@
                         <div class="col-md-12">
                             <p>By providing your email address and phone number, we may use it to send you messages and you agree to receive information 
                                 about products and services from Abridge. For more information about how we protect your privacy, please read our <a href="privacy.html">Privacy Policy</a>.</p>
-                                <a href="enquiry-status.html"><button class="btn btn-primary">Send Enquiry</button></a>
+                              <button type="submit" class="btn btn-primary">Send Enquiry</button>
                         </div>
+                      </form>
                     </div>
                 </div>
             </div>
@@ -182,8 +184,33 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    $(document).ready(function() {
+        $('#contactForm').submit(function(e) {
+            e.preventDefault();
+            var formData = $(this).serialize();
+            console.log(formData)
+            $.ajax({
+                type: 'POST',
+                url: 'http://yourserver.com/contact',
+                data: formData,
+                success: function(response) {
+                    console.log('Data sent successfully:', response);
+                    // Optionally, you can show a success message to the user
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error sending data:', error);
+                    // Optionally, you can show an error message to the user
+                }
+            });
+        });
+    });
+</script>
 
 </body>
 

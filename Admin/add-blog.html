@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote-bs5.min.css"
         integrity="sha512-ngQ4IGzHQ3s/Hh8kMyG4FC74wzitukRMIcTOoKT3EyzFZCILOPF0twiXOQn75eDINUfKBYmzYn2AA8DkAk8veQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -53,14 +54,13 @@
                         Modules
                     </li>
                     <li>
-                        <a href="index.html"><i
-                                class="material-icons-outlined">dashboard</i>Dashboard</a>
+                        <a href="index.html"><i class="material-icons-outlined">dashboard</i>Dashboard</a>
                     </li>
                     <li class="active-page">
                         <a href="#"><i class="material-icons">card_giftcard</i>Blog<i
                                 class="material-icons has-sub-menu">add</i></a>
                         <ul class="sub-menu">
-                            <li >
+                            <li>
                                 <a href="add-blog.html" class="active">Add Blog</a>
                             </li>
                             <li>
@@ -121,6 +121,9 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">Add Blog</h5>
+                                    <div class="alert alert-primary" role="alert">
+                                        This is a primary alert—check it out!
+                                      </div>
                                     <form>
                                         <div class="form-row">
                                             <div class="form-group col-md-12">
@@ -149,6 +152,8 @@
                                             <button type="submit" class="btn btn-primary">submit</button>
                                             <button type="submit" class="btn btn-danger ml-3">cancel</button>
                                         </div>
+
+                                      
                                     </form>
                                 </div>
                             </div>
@@ -187,6 +192,14 @@
     <script>
         let currentDate = new Date().toJSON().slice(0, 10);
         document.getElementById("date").innerHTML = currentDate;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myBtn").click(function () {
+                $("#myToast").toast("show");
+            });
+        });
     </script>
 </body>
 
